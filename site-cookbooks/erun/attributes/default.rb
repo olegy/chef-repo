@@ -1,0 +1,10 @@
+default['erun']['web_user']          = 'erun'
+default['erun']['cap_base']          = "/home/#{node['erun']['web_user']}/apps"
+default['erun']['deploy_to']         = "/home/#{node['erun']['web_user']}/apps/erun"
+default['erun']['environment']       = 'production'
+default['erun']['database']          = 'erun'
+default['erun']['adapter']           = 'postgresql'
+default['erun']['database_user']     = 'postgres'
+default['erun']['database_password'] = (node['postgresql']['password']['postgres'] rescue nil)
+default['erun']['database_host']     = 'localhost'
+default['erun']['ruby_version']      = '1.9.3-p327'

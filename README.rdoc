@@ -1,0 +1,5 @@
+== Chef-repo
+
+Here's my Chef deployment code for preparing node to run typical Rails application. I've extracted it from a simple application called 'erun'.
+It can be used for Vagrant deployment and also for setting up the node on EC2. It does a complete setup ready for production.
+

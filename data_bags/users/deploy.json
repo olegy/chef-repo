@@ -1,0 +1,9 @@
+{
+  "id" : "deploy",
+  "groups" : [ "admin" ],
+  "shell" : "/bin/bash",
+  "comment" : "Deploy User",
+  "ssh_keys" : [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAyp+rHay6mq8NUntOJtRUShvY8fgymtLZJ9JXz+oTfuJn89uIVjuEt1yGreQ0GUmgqTCm1t9BY+2GlPKwEFo33E4+35NSpeG1o8RVg7Vjihc+cvfpGGa1jA16Lv+61imYzDBdeR5T1sN+iJc2A8SSJcNebuH1PtLLqwli3rAnNqN5REF3LnpQoDSUr93cfkDKTepky/jXWvusabf4iawPo68dSYrM+tsbBq1DtWNa29RgcbOqCrb1WKwVL99tpYi+f2/AcAUCFg23vihDb7/NmCksxuBvFZxO9qxjSGripONySwgUfh+gPR4/rutdrdHmZSRPXEZEpMZ4WVND2MUekw== oly2000@gmail.com"
+  ]
+}

@@ -1,0 +1,10 @@
+<%= node['erun']['environment'] %>:
+  adapter: <%= node['erun']['adapter'] %>
+  database: <%= node['erun']['database'] %>
+  username: <%= node['erun']['database_user'] %>
+<% if node['erun']['database_password'] %>
+  password: <%= node['erun']['database_password'] %>
+<% end %>
+  host: <%= node['erun']['database_host'] %>
+  encoding: utf8
+  min_messages: warning
